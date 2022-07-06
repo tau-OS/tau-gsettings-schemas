@@ -9,6 +9,7 @@ Source:         %{name}-%{version}.tar.gz
 
 BuildRequires:  glib2-devel
 BuildRequires:  meson
+BuildRequires:  gcc
 
 %description
 Global GSettings schemas for tauOS. That's all.
