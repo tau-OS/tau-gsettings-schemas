@@ -14,7 +14,7 @@ BuildRequires:  meson
 Global GSettings schemas for tauOS. That's all.
 
 %prep
-%autosetup -c
+%autosetup
 
 %build
 %meson
