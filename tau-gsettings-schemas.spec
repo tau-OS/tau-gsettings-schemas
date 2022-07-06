@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:           tau-gsettings-schemas
 Version:        1.1
 Release:        1%{?dist}
