@@ -26,4 +26,4 @@ Global GSettings schemas for tauOS. That's all.
 
 %files
 %license LICENSE
-{_datadir}/glib-2.0/schemas/*
+%{_datadir}/glib-2.0/schemas/*
