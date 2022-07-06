@@ -15,7 +15,7 @@ jobs:
     needs:
       - build-x86_64
     uses: tau-OS/github-actions/.github/workflows/sign-rpm.yml@main
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     with:
       name: "tau-gsettings-schemas"
       buildVariant: x86_64
@@ -44,7 +44,7 @@ jobs:
     needs:
       - build-aarch64
     uses: tau-OS/github-actions/.github/workflows/sign-rpm.yml@main
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     with:
       name: "tau-gsettings-schemas"
       buildVariant: aarch64
