@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<schemalist>
+  <enum id="co.tauos.desktop.appearance.accent-color">
+    <value nick="purple" value="1"/>
+    <value nick="pink" value="2"/>
+    <value nick="red" value="3"/>
+    <value nick="orange" value="4"/>
+    <value nick="yellow" value="5"/>
+    <value nick="green" value="6"/>
+    <value nick="mint" value="7"/>
+    <value nick="blue" value="8"/>
+  </enum>
+  <schema path="/co/tauos/desktop/appearance/" id="co.tauos.desktop.appearance">
+    <key name='accent-color' enum='co.tauos.desktop.appearance.accent-color'>
+      <default>'purple'</default>
+      <summary>System Accent Color</summary>
+      <description>
+        The preferred accent color for the user interface.
+      </description>
+    </key>
+  </schema>
+</schemalist>
