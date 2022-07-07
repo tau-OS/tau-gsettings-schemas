@@ -2,7 +2,7 @@
 
 Name:           tau-gsettings-schemas
 Version:        1.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        tauOS specific GSettings schemas
 
 License:        GPL
@@ -25,6 +25,14 @@ Global GSettings schemas for tauOS. That's all.
 
 %install
 %meson_install
+
+%postun
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 %files
 %license LICENSE
