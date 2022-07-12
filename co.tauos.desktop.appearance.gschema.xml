@@ -2,6 +2,7 @@
 
 <schemalist>
   <enum id="co.tauos.desktop.appearance.accent-color">
+    <value nick="multi" value="0"/>
     <value nick="purple" value="1"/>
     <value nick="pink" value="2"/>
     <value nick="red" value="3"/>
@@ -10,6 +11,7 @@
     <value nick="green" value="6"/>
     <value nick="mint" value="7"/>
     <value nick="blue" value="8"/>
+    <value nick="mono" value="9"/>
   </enum>
   <schema path="/co/tauos/desktop/appearance/" id="co.tauos.desktop.appearance">
     <key name='accent-color' enum='co.tauos.desktop.appearance.accent-color'>
