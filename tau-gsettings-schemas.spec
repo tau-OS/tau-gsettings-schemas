@@ -2,7 +2,7 @@
 
 Name:           tau-gsettings-schemas
 Version:        1.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        tauOS specific GSettings schemas
 
 License:        GPL
