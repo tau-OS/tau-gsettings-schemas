@@ -7,7 +7,7 @@ Summary:        tauOS specific GSettings schemas
 
 License:        GPL
 URL:            https://github.com/tau-OS/tau-gsettings-schemas
-Source:         %{name}-%{version}.tar.gz
+Source:         https://github.com/tau-OS/tau-gsettings-schemas/archive/refs/heads/main.zip
 
 BuildRequires:  glib2-devel
 BuildRequires:  meson
