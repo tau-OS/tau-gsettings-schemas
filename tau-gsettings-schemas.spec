@@ -17,7 +17,7 @@ BuildRequires:  gcc
 Global GSettings schemas for tauOS. That's all.
 
 %prep
-%autosetup
+%setup -q -n tau-gsettings-schemas-main
 
 %build
 %meson
