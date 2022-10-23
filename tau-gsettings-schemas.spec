@@ -17,7 +17,7 @@ BuildRequires:  gcc
 Global GSettings schemas for tauOS. That's all.
 
 %prep
-%setup -q -n tau-gsettings-schemas-main
+%autosetup -n %{name}-main
 
 %build
 %meson
@@ -37,3 +37,7 @@ fi
 %files
 %license LICENSE
 %{_datadir}/glib-2.0/schemas/*
+
+%changelog
+* Sun Oct 23 2022 Cappy Ishihara <cappy@cappuchino.xyz> - 1.1-3
+- Rebuilt
