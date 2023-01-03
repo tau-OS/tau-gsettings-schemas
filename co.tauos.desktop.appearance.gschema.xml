@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <schemalist>
   <enum id="co.tauos.desktop.appearance.accent-color">
     <value nick="multi" value="0"/>
@@ -13,15 +12,6 @@
     <value nick="blue" value="8"/>
     <value nick="mono" value="9"/>
   </enum>
-  <schema path="/co/tauos/desktop/appearance/" id="co.tauos.desktop.appearance">
-    <key name='accent-color' enum='co.tauos.desktop.appearance.accent-color'>
-      <default>'purple'</default>
-      <summary>System Accent Color</summary>
-      <description>
-        The preferred accent color for the user interface.
-      </description>
-    </key>
-  </schema>
   <enum id="co.tauos.desktop.appearance.dark-mode-strength">
     <value nick="medium" value="0"/>
     <value nick="harsh" value="1"/>
@@ -33,6 +23,13 @@
       <summary>System Dark Mode Strength</summary>
       <description>
         The preferred dark mode strength for the user interface.
+      </description>
+    </key>
+    <key name='accent-color' enum='co.tauos.desktop.appearance.accent-color'>
+      <default>'purple'</default>
+      <summary>System Accent Color</summary>
+      <description>
+        The preferred accent color for the user interface.
       </description>
     </key>
   </schema>
