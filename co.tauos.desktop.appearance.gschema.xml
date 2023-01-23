@@ -11,6 +11,7 @@
     <value nick="mint" value="7"/>
     <value nick="blue" value="8"/>
     <value nick="mono" value="9"/>
+    <value nick="wall" value="10"/>
   </enum>
   <enum id="co.tauos.desktop.appearance.dark-mode-strength">
     <value nick="medium" value="0"/>
