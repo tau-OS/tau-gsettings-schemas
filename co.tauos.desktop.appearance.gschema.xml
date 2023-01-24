@@ -14,7 +14,7 @@
       </description>
     </key>
     <key name="accent-color" type="s">
-      <default>"purple"</default>
+      <default>"#8c56bf"</default>
       <summary>System Accent Color</summary>
       <description>
         The preferred accent color for the user interface.
