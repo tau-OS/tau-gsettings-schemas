@@ -6,7 +6,7 @@ project(
 
 gnome = import('gnome')
 
-settings_schemas = [ 'co.tauos.desktop.appearance.gschema.xml' ]
+settings_schemas = [ 'com.fyralabs.desktop.appearance.gschema.xml' ]
 gnome.compile_schemas(depend_files: files(settings_schemas))
 
 schemas_dir = get_option('prefix') / get_option('datadir') / 'glib-2.0' / 'schemas'

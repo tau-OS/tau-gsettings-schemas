@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <schemalist>
-  <enum id="co.tauos.desktop.appearance.dark-mode-strength">
+  <enum id="com.fyralabs.desktop.appearance.dark-mode-strength">
     <value nick="medium" value="0"/>
     <value nick="harsh" value="1"/>
     <value nick="soft" value="2"/>
   </enum>
-  <schema path="/co/tauos/desktop/appearance/" id="co.tauos.desktop.appearance">
-    <key name='dark-mode-strength' enum='co.tauos.desktop.appearance.dark-mode-strength'>
+  <schema path="/com/fyralabs/desktop/appearance/" id="com.fyralabs.desktop.appearance">
+    <key name='dark-mode-strength' enum='com.fyralabs.desktop.appearance.dark-mode-strength'>
       <default>'medium'</default>
       <summary>System Dark Mode Strength</summary>
       <description>
