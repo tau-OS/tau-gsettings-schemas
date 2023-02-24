@@ -5,12 +5,25 @@
     <value nick="harsh" value="1"/>
     <value nick="soft" value="2"/>
   </enum>
+  <enum id="com.fyralabs.desktop.appearance.ensor-scheme">
+    <value nick="default" value="0"/>
+    <value nick="vibrant" value="1"/>
+    <value nick="muted" value="2"/>
+    <value nick="mono" value="3"/>
+  </enum>
   <schema path="/com/fyralabs/desktop/appearance/" id="com.fyralabs.desktop.appearance">
     <key name='dark-mode-strength' enum='com.fyralabs.desktop.appearance.dark-mode-strength'>
       <default>'medium'</default>
       <summary>System Dark Mode Strength</summary>
       <description>
         The preferred dark mode strength for the user interface.
+      </description>
+    </key>
+    <key name='ensor-scheme' enum='com.fyralabs.desktop.appearance.ensor-scheme'>
+      <default>'default'</default>
+      <summary>System Ensor Scheme</summary>
+      <description>
+        The preferred Ensor coloring scheme for the user interface.
       </description>
     </key>
     <key name="accent-color" type="s">
