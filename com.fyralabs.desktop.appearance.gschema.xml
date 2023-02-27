@@ -33,5 +33,12 @@
         The preferred accent color for the user interface.
       </description>
     </key>
+    <key name="font-weight" type="d">
+      <default>1.0</default>
+      <summary>System Font Weight</summary>
+      <description>
+        The preferred font weight for the user interface. Makes all text bold or light to the user's choice.
+      </description>
+    </key>
   </schema>
 </schemalist>
