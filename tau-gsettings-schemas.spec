@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:           tau-gsettings-schemas
-Version:        1.1
-Release:        7%{?dist}
+Version:        1
+Release:        8%{?dist}
 Summary:        tauOS specific GSettings schemas
 
 License:        GPL
@@ -39,5 +39,8 @@ fi
 %{_datadir}/glib-2.0/schemas/*
 
 %changelog
+* Mon Sept 4 2023 Jaiden Riordan <jade@fyralabs.com> - 1-8
+- Rebuilt
+
 * Sun Oct 23 2022 Cappy Ishihara <cappy@cappuchino.xyz> - 1.1-3
 - Rebuilt
