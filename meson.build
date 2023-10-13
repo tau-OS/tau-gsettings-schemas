@@ -1,6 +1,6 @@
 project(
   'tau-gsettings-schemas', 'c',
-  version: '1.1',
+  version: '1',
   license: 'GPL',
 )
 
