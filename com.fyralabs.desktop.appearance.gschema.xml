@@ -28,5 +28,12 @@
         The preferred font weight for the user interface. Makes all text bold or light to the user's choice.
       </description>
     </key>
+    <key name="high-contrast" type="b">
+      <default>false</default>
+      <summary>System High Contrast</summary>
+      <description>
+        Whether the user interface should be high contrast or not.
+      </description>
+    </key>
   </schema>
 </schemalist>
