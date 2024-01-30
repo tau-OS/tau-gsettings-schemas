@@ -33,6 +33,13 @@
         The preferred font weight for the user interface. Makes all text bold or light to the user's choice.
       </description>
     </key>
+    <key name="roundness" type="d">
+      <default>1.0</default>
+      <summary>System UI Roundness</summary>
+      <description>
+        The preferred roundness for the user interface. Makes all interface objects as round as the user's choice.
+      </description>
+    </key>
     <key name="contrast" enum='com.fyralabs.desktop.appearance.contrast-scheme'>
       <default>'default'</default>
       <summary>System Contrast</summary>
